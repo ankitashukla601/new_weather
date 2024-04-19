@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+
+
+}
+.card-1 {
+     background: linear-gradient(35deg, #3b77c5, #00ffbb);
+  width: 99%;
+  color: #ffff;
+  padding: 30px 45px;
+  max-width: 400px;
+  text-align: center;
+  margin: 100px auto 0;
+  border: #0f5132;
+}
+.card {
+  background: linear-gradient(135deg, #00ffbb, #3b77c5);
+  border-radius: 23px;
+
+color: #ffff;
+padding: 30px 45px;
+max-width: 400px;
+text-align: center;
+margin: 100px auto 0;
+border: #0f5132;
+}
+input.search_inp {
+  padding-left: 16px;
+  height: 44px;
+  border: #ffff;
+  padding-block: 6px;
+  border-radius: 26px;
+}
+
+button.srch_btn {
+  text-align: end;
+  background: #ffff;
+  padding: 6px;
+  margin-left: -30px;
+  border: none;
+  border-radius: 19px;
+}
+input:focus{
+  outline: none;
+}
+
+img.cloudimg {
+  margin-top: 5%;
+  width: 36%;
+}
+.fa-lcolocation-dot{
+  color: red;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
